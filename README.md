@@ -24,7 +24,7 @@ The app is a simple list that load the information from two kinds of backend: Sp
 ## Configure Parse access in Android
 
 - Create an app in [Parse](http://parse.com/)
-- Import the files that are in [Parse folder](/Parse)
+- Import the files that are in the [Parse folder](/Parse) of this repository
 - Change the tokens in App.java for your Application ID and your Client Key (The're created by Parse)
 
 ## Run app

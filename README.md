@@ -8,7 +8,7 @@ This project is created to show:
 
 The app is a simple list that load the information from two kinds of backend: Spark web service (IaaS) and Parse (BaaS)
 
-<img src="https://dl.dropboxusercontent.com/u/60646493/backendformobile.gif" width="200" height="800" />
+<img src="https://dl.dropboxusercontent.com/u/60646493/backendformobile.gif" width="400" height="600" />
 
 ## Run web service - Spark Java
 

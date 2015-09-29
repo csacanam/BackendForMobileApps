@@ -29,11 +29,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- Button for Slack -->
+        <!-- Button for Spark -->
         <Button
-            android:id="@+id/btnSlack"
+            android:id="@+id/btnSpark"
             android:layout_weight="1"
-            android:text="Slack"
+            android:text="Spark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

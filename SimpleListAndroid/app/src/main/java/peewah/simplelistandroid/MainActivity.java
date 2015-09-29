@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
 
     private Button btnParse;
 
-    private Button btnSlack;
+    private Button btnSpark;
 
     private ListView listView;
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
         //Buttons
         btnParse = (Button) findViewById(R.id.btnParse);
 
-        btnSlack = (Button) findViewById(R.id.btnSlack);
+        btnSpark = (Button) findViewById(R.id.btnSpark);
 
         //ListView and ListViewAdapter
         listView = (ListView) findViewById(R.id.listView);
@@ -123,8 +123,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        //Btn Slack
-        btnSlack.setOnClickListener(new View.OnClickListener()
+        //Btn Spark
+        btnSpark.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)

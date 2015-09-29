@@ -31,5 +31,3 @@ The app is a simple list that load the information from two kinds of backend: Sp
 
 - Run your app in Android Studio
 - Check that the list change when you pressed both buttons (Parse and Slack). Each button access the information from a different source
-- Run your app in Android Studio
-- Check that the list change when you pressed both buttons (Parse and Slack). Each button access the information from a different source.

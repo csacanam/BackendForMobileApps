@@ -12,20 +12,20 @@ The app is a simple list that load the information from two kinds of backend: Sp
 
 ## Run web service - Spark Java
 
-- Open simplelistbackend in your favorite Java IDE (NetBeans, Eclipse or IntelliJ)
+- Open [simplelistbackend](/simplelistbackend) in your favorite Java IDE (NetBeans, Eclipse or IntelliJ)
 - Run the project
-- Check that the service is running in your machine in the port 4567. You can check this in the browser with the URL http://localhost:4567/list. It should show a JSON Array.
+- Check that the service is running in your machine in the port 4567. You can check this in the browser with the URL http://localhost:4567/list . It should show a JSON Array.
 
 ## Configure Spark access in Android
 
-- Open SimpleListAndroid in Android Studio
-- Go to MainActivity.java and change the URL in the doInBackground method of HttpRequestTask inner class. For example, my URL will be: http://172.30.162.239:4567/list
+- Open [SimpleListAndroid](/SimpleListAndroid) in Android Studio
+- Go to [MainActivity.java](/SimpleListAndroid/app/src/main/java/peewah/simplelistandroid/MainActivity.java) and change the URL in the doInBackground method of HttpRequestTask inner class. For example, my URL will be: http://172.30.162.239:4567/list
 
 ## Configure Parse access in Android
 
 - Create an app in [Parse](http://parse.com/)
 - Import the files that are in the [Parse folder](/Parse) of this repository
-- Change the tokens in App.java for your Application ID and your Client Key (The're created by Parse)
+- Change the tokens in [App.java](/SimpleListAndroid/app/src/main/java/peewah/simplelistandroid/App.java) for your Application ID and your Client Key (The're created by Parse)
 
 ## Run app
 
